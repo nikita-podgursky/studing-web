@@ -1,24 +1,54 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
+  <title>TheGorgeous</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="Spaghetti.ico" type="image/ico">
-  <title>Goodfood</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/Spaghetti.ico" type="image/ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Our&nbspMenu</h1>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Nikita's Gorgeous Restaurant</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Certification">
+              <span>Best quality</span>
+            </p>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div><!--End navbar-brand-->
+    </nav>
+  </header>
+  <h2>Our&nbspMenu</h2>
+  <div class="container-fluid">
      <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div><h3 class="block_1">Chiken</h3><p>Куриное карри - блюдо родом из <br>Индийского субконтинента. <br>Распространен на Индийском субконтиненте, Юго-Восточной Азии, Великобритании и Карибском бассейне.</p></div>
+            <div><h3 class="block_1">Chiken</h3><p class="comtainer-text">Куриное карри - блюдо родом из <br>Индийского субконтинента. <br>Распространен на Индийском субконтиненте, Юго-Восточной Азии, Великобритании и Карибском бассейне.</p></div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div><h3 class="block_2">Beef</h3><p>Стейк — кусок мяса. Стейк из лучших частей говядины обычно называется просто стейком.</p></div>
+            <div><h3 class="block_2">Beef</h3><p class="comtainer-text">Стейк — кусок мяса. Стейк из лучших частей говядины обычно называется просто стейком.</p></div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12">
-            <div id="name"><h3 class="block_3">Sushi</h3><p>Су́ши, или су́си, — блюдо традиционной японской кухни, приготовленное из риса с уксусной приправой и различных морепродуктов, а также других ингредиентов.<br> С начала 1980-х годов суши получило широкую популярность на Западе и во всём мире.</p></div>
+            <div id="name"><h3 class="block_3">Sushi</h3><p class="comtainer-text">Су́ши, или су́си, — блюдо традиционной японской кухни, приготовленное из риса с уксусной приправой и различных морепродуктов, а также других ингредиентов.<br> С начала 1980-х годов суши получило широкую популярность на Западе и во всём мире.</p></div>
           </div>
      </div>
+  </div><!--End conteiner-fluid-->
 </body>
 </html>
