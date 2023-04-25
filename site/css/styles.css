@@ -1,0 +1,18 @@
+body {
+  font-size: 16px;
+  color: #F5F3C1;
+  background-color: #27E1C1;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #F5F3C1;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 0px;
+}
